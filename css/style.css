@@ -1,8 +1,33 @@
 body {
   background: #DAF7F6;
-  font-family: 'Open Sans'
+  color: #3B3B3B;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+
 }
 
-body h1,h2,h3 {
-  font-family: 'Montserrat'
+header {
+  background: white;
+  text-align: center;
+}
+
+header h1 {
+  color: #F16059;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+  padding: 40px 0;
+  text-transform: uppercase;
+}
+
+header img {
+  margin-right: 16px;
+}
+
+main {
+  margin: 0 auto;
+  width: 1000px;
 }
